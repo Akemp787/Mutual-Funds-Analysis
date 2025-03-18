@@ -14,7 +14,7 @@ Our project aims to analyze mutual funds and ETFs using machine learning techniq
 We will utilize Python for data cleaning, analysis, and backend development.For database management, we will use Spark/PySpark.
 
 ### The Dataset
-The dataset comprises 23,783 Mutual Funds and 2,310 ETFs, featuring various attributes such as total net assets, fund family, inception date, portfolio composition (cash, stocks, bonds, sectors), historical returns (yearly and quarterly), financial ratios (price/earning, Treynor and Sharpe ratios, alpha, beta), and ESG scores.
+Originally comprising over 5 million records, the dataset has been cleaned and refined to include 23,783 mutual funds and 2,310 ETFs, featuring attributes such as total net assets, fund family, inception date, portfolio composition (cash, stocks, bonds, and sectors), historical returns (yearly and quarterly), financial ratios (e.g., price/earnings, Treynor and Sharpe ratios, alpha, beta), and ESG scores.
 
 ## How we handled the initial data and cleaning
 - Removed columns with only 1 unique value. There were 6 object columns with 1 unique value including "Currency", "Exchange Timezones" etc
